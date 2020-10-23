@@ -1,5 +1,9 @@
-import validatePassword from './js/validate-password';
-console.log(validatePassword);
+import {addUser} from './js/api-service';
+addUser('marengo');
+
+// import validatePassword from './js/validate-password';
+// console.log(validatePassword);
+// console.log(validatePassword('qwerty'));
 
 // импорт по дефолту (из api-service)
 // import apiService from './js/api-service';
@@ -16,6 +20,6 @@ console.log(validatePassword);
 // console.log(somethindMy);
 
 // импортировать всё (из api-service)
-import * as apiService from './js/api-service';
-console.log(apiService);
+// import * as apiService from './js/api-service';
+// console.log(apiService);
 

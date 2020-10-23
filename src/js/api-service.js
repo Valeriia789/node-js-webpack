@@ -2,6 +2,8 @@
 //   console.log('fetchAllUsers');
 // };
 
+import shortid from "shortid";
+
 // const fetchUserById = id => {
 //   console.log('fetchUserById');
 // };
@@ -26,4 +28,12 @@ export const updateUserById = id => {
 };
 
 export const x = 88;
-export const y = 'abcdefg'
+export const y = 'abcdefg';
+
+export const addUser = name => {
+  const user = {
+    id: shortid.generate(),
+    name,
+  };
+  console.log(user);
+};
