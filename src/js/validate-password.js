@@ -1,5 +1,5 @@
 export default 555;
 
-// function validatePassword(password) {
-//   return true;
-// }
+function validatePassword(password) {
+  return true;
+}
